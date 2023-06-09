@@ -2,8 +2,8 @@ import express from 'express'
 import colors from 'colors'
 import * as dotenv from 'dotenv'
 import cors from 'cors'
-import connectDB from './server/Config/config.js'
-import quizRouter from './server/Routes/quizRouter.js'
+import connectDB from './Config/config.js'
+import quizRouter from './Routes/quizRouter.js'
 
 dotenv.config()
 const app = express()
